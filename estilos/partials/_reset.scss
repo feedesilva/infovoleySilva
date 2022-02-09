@@ -12,6 +12,9 @@ a{
 /*Defino tamaño de logo*/
 .logo{
     width: 6rem;
+    @include movil{
+        width: 3rem;
+    }
 }
 
 .ruta{
