@@ -2,7 +2,7 @@
 header{
     background-color: rgb(29, 82, 126);
     @include tablet {
-        background-color: #999;
+        background-color: rgb(240, 0, 0);
          .header__video{ /*borro video.html en dispositivos moviles*/
             display: none;
         }
