@@ -1,0 +1,16 @@
+/*Modifico estilos de títulos y subtitulos*/
+h1{
+    color: red;
+    font-size: 2,8125rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    margin: 1.875rem; 
+}
+
+h2{
+    font-style:oblique;
+    font-weight:bolder;
+    font-size: $titulo/1.5;
+    margin: 0.625rem;
+}

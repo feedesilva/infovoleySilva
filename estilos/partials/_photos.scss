@@ -1,0 +1,11 @@
+/*Fotos.html*/
+.slider{
+    &__imagen{
+        width: 100vh;
+        height: 100vh;
+        @include movil{
+            max-width: 100vh;
+            height: 50vh;
+        }
+    }
+}

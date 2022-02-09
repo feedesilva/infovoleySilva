@@ -1,0 +1,23 @@
+/*Videos.htmls*/
+.videos{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1.25rem;
+    &__voley{ 
+        display:flex;
+        flex-flow: row wrap;
+        margin: 1.25rem;
+    }
+    &__texto{
+        display: flex;
+        flex-flow: column wrap;
+        padding: 3.125rem;
+        margin: 3.125rem;
+        color: white;
+        border: solid 0.1875rem white;
+        background-color: black;
+    }
+}
+

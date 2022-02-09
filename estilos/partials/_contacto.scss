@@ -1,0 +1,61 @@
+/*Contact*/
+$redes: ( /*Declaramos nuestro mapa*/
+send: #38afdf,
+reset:#38afdf
+);
+form{
+    background-color:#999;
+    margin: 10px auto;
+    padding: 0.625rem;
+    width: 37.5rem;
+    text-align: center;
+    border-radius: 0.625rem;
+    @include movil{
+        background-color:black;
+        margin: 10px auto;
+        padding: 0.625rem;
+        text-align: center;
+        border-radius: 0.625rem;
+        color: white;
+        font-size: 10px;
+        width: 320px;
+    }
+}
+
+.fieldset{
+    &__img{
+        width: 3.125rem;
+        height: 3.125rem;
+        border-radius: 3px;
+    }
+    &__field{
+        color: black;
+        padding: 0.625rem;
+        width: 18.75rem;
+    }
+    &__btn{/*MAP*/
+    @each $red, $color in $redes {
+       &--#{$red} {
+           background-color: $color;
+           border: 1px solid black;
+           border-radius: 8px;
+           width: 12.5rem;
+           &:hover{
+            background-color: white;
+           }
+           @include movil{
+            width: 8rem;
+            background-color: #38afdf;
+            border: 1px solid black;
+            border-radius: 8px;
+               &:hover{
+                   background-color: #38afdf;
+               }
+           }
+           
+         }
+    }
+}
+}
+
+
