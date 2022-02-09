@@ -18,6 +18,7 @@
 /*modifico noticia de home*/
 .notind{
     text-align: center;
+    justify-content: center;
     &__lnvm{
         display: flex;
         flex-flow: column wrap;
@@ -31,6 +32,14 @@
         @include movil{
             width: 70%;
             margin: 10px 15px;
+            text-align: center;
+            justify-content: center;
         }
+    }
+}
+
+.prueba{
+    @include movil{
+    color: red;
     }
 }

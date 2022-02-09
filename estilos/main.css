@@ -158,6 +158,9 @@ h2 {
 /*modifico noticia de home*/
 .notind {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .notind__lnvm {
@@ -184,6 +187,16 @@ h2 {
   .notind__p {
     width: 70%;
     margin: 10px 15px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .prueba {
+    color: red;
   }
 }
 
