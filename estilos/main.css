@@ -17,6 +17,12 @@ a {
   width: 6rem;
 }
 
+@media screen and (max-width: 425px) {
+  .logo {
+    width: 3rem;
+  }
+}
+
 .ruta {
   margin: 0.625rem;
   padding: 0.625rem;
@@ -67,12 +73,12 @@ a {
 
 /*Cambio el background de header traído de bootstrap*/
 header {
-  background-color: #1d527e;
+  background-color: #58b40c;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   header {
-    background-color: #999;
+    background-color: #dc00f0;
   }
   header .header__video {
     /*borro video.html en dispositivos moviles*/
@@ -80,9 +86,9 @@ header {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   header {
-    background-color: #f8f844;
+    background-color: black;
   }
   header .header__video {
     /*borro video.html en dispositivos moviles*/
@@ -103,13 +109,13 @@ header {
   background-color: white;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .header__menu:hover {
     background-color: none;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .header__menu:hover {
     background-color: none;
   }
@@ -132,7 +138,7 @@ h2 {
   margin: 0.625rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .presentacion__video {
     display: none;
   }
@@ -174,9 +180,9 @@ h2 {
   width: 100vh;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .notind__p {
-    width: 90%;
+    width: 70%;
     margin: 10px 15px;
   }
 }
@@ -198,7 +204,7 @@ h2 {
           justify-content: stretch;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .seleccion {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
@@ -207,7 +213,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .seleccion {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
@@ -232,14 +238,14 @@ h2 {
   margin: 0.625rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .seleccion__jug {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .seleccion__jug {
     -webkit-transition: none;
     transition: none;
@@ -252,14 +258,14 @@ h2 {
   /*Scalo la imagen al pasar por arriba*/
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .seleccion__jug:hover {
     -webkit-transform: none;
             transform: none;
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .seleccion__jug:hover {
     -webkit-transform: none;
             transform: none;
@@ -272,7 +278,7 @@ h2 {
   height: 6.25rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .seleccion__imagenJug {
     width: 100%;
     height: 50%;
@@ -301,7 +307,7 @@ h2 {
           align-items: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .conquistas {
     display: none;
   }
@@ -312,7 +318,7 @@ h2 {
   margin: 0.625rem;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .img_Conquistas {
     display: none;
   }
@@ -364,7 +370,7 @@ h2 {
           align-items: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .destacados {
     display: none;
   }
@@ -397,7 +403,7 @@ th {
   height: 100vh;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .slider__imagen {
     max-width: 100vh;
     height: 50vh;
@@ -457,14 +463,14 @@ th {
   border-radius: 0.625rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .sectionNoticias {
     width: 250px;
     height: 150px;
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .sectionNoticias {
     width: 80vh;
     -o-object-fit: cover;
@@ -555,7 +561,7 @@ th {
   justify-items: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .noticias {
         grid-template-areas: "a" "b" "c" "d";
     -ms-grid-columns: 1fr;
@@ -565,7 +571,7 @@ th {
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .noticias {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -579,13 +585,13 @@ th {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .pNoticias {
     margin: 0.625rem;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .pNoticias {
     margin: 0.625rem;
   }
@@ -601,7 +607,7 @@ form {
   border-radius: 0.625rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   form {
     background-color: black;
     margin: 10px auto;
@@ -641,7 +647,7 @@ form {
   background-color: white;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .fieldset__btn--send {
     width: 8rem;
     background-color: #38afdf;
@@ -664,7 +670,7 @@ form {
   background-color: white;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .fieldset__btn--reset {
     width: 8rem;
     background-color: #38afdf;
