@@ -33,6 +33,11 @@ form{
         padding: 0.625rem;
         width: 18.75rem;
     }
+    &__conditions{
+        @include movil{
+            width: 19rem;
+        }
+    }
     &__btn{/*MAP*/
     @each $red, $color in $redes {
        &--#{$red} {
