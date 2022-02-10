@@ -325,11 +325,18 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 425px) {
   .conquistas {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .conquistas {
+    margin: 50px;
   }
 }
 
@@ -350,6 +357,12 @@ h2 {
   padding: 0.625rem;
   width: 100vh;
   text-align: center;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .medalla {
+    width: 80%;
+  }
 }
 
 .medalla__juego {
@@ -501,8 +514,7 @@ th {
 .noticias {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "a b" 
- "c d";
+      grid-template-areas: "a b"  "c d";
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
   -ms-grid-columns: (1fr)[2];
@@ -584,10 +596,7 @@ th {
 
 @media screen and (max-width: 425px) {
   .noticias {
-        grid-template-areas: "a"
- "b"
- "c"
- "d";
+        grid-template-areas: "a" "b" "c" "d";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: (1fr)[4];
@@ -601,10 +610,7 @@ th {
         grid-template-columns: 1fr;
     -ms-grid-rows: (1fr)[4];
         grid-template-rows: repeat(4, 1fr);
-        grid-template-areas: "a"
- "b"
- "c"
- "d";
+        grid-template-areas: "a" "b" "c" "d";
   }
 }
 
@@ -661,7 +667,11 @@ form {
 
 @media screen and (max-width: 425px) {
   .fieldset__conditions {
-    width: 19rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: 20px;
   }
 }
 
