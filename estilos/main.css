@@ -163,6 +163,22 @@ h2 {
           justify-content: center;
 }
 
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .notind {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .notind {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .notind__lnvm {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,15 +204,6 @@ h2 {
     width: 70%;
     margin: 10px 15px;
     text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .prueba {
-    color: red;
   }
 }
 
