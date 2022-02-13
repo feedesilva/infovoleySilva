@@ -77,9 +77,6 @@ header {
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-  header {
-    background-color: #999;
-  }
   header .header__video {
     /*borro video.html en dispositivos moviles*/
     display: none;
@@ -87,9 +84,6 @@ header {
 }
 
 @media screen and (min-width: 0px) and (max-width: 425px) {
-  header {
-    background-color: #0076e4;
-  }
   header .header__video {
     /*borro video.html en dispositivos moviles*/
     display: none;
