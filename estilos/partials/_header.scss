@@ -2,13 +2,11 @@
 header{
     background-color: $b-color;
     @include tablet {
-        background-color: #999;
          .header__video{ /*borro video.html en dispositivos moviles*/
             display: none;
         }
     }
     @include movil{
-        background-color: rgb(0, 118, 228);
         .header__video{ /*borro video.html en dispositivos moviles*/
             display: none;
         }
