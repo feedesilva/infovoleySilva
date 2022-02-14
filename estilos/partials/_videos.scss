@@ -9,6 +9,7 @@
         display:flex;
         flex-flow: row wrap;
         margin: 1.25rem;
+        border-radius: $diez/2;
     }
     &__texto{
         display: flex;
