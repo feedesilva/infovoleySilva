@@ -37,7 +37,7 @@
     }
     &__imagenJug{ /*Defino tamaño de imagen*/
         width: 9.375rem;
-        height: $diez*10;
+        height: 6.25rem;
         border-radius: $diez/2;
         @include movil{
             width: 100%;
