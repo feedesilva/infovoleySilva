@@ -1,12 +1,13 @@
+/*Noticias.html*/
 .sectionNoticias{
     width: 85%;
-    height: 500px;
-    margin: 20px;
+    height: 31.25rem;
+    margin: 1.25rem;
     object-fit: cover;
-    border-radius: 0.625rem;
+    border-radius: $diez;
     @include movil{
-        width: 250px;
-        height: 150px;
+        width: 15.625rem;
+        height: 9.375rem;
     }
     @include tablet{
         width: 80vh;
@@ -21,7 +22,7 @@
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
     align-items: center;        
-    margin: 0.625rem;        
+    margin: $diez;        
     &__1{
         grid-area: a;
         display: flex;
@@ -70,9 +71,9 @@
 .pNoticias{
     font-weight: bold;
     @include tablet{
-        margin: 0.625rem;
+        margin: $diez;
     }
     @include movil{
-        margin: 0.625rem;
+        margin: $diez;
     }
 }

@@ -1,3 +1,4 @@
+/*Elimino videos.html en versión movil*/
 .presentacion{
     &__video{
         @include movil{
@@ -5,6 +6,7 @@
         }
     }
 }
+/*Index*/
 .index_p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.125rem;
@@ -13,7 +15,7 @@
     background-color: $b-color;
     color: white;
     padding: 0.1875rem;
-    margin: 0.625rem 0.625rem;
+    margin: $diez $diez;
 }
 /*modifico noticia de home*/
 .notind{
@@ -37,7 +39,7 @@
     &__p{
         @include movil{
             width: 90%;
-            margin: 20px;
+            margin: $diez*2;
             text-align: center;
         }
     }

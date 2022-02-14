@@ -5,20 +5,20 @@ reset:#38afdf
 );
 form{
     background-color:#999;
-    margin: 10px auto;
-    padding: 0.625rem;
+    margin: $diez auto;
+    padding: $diez;
     width: 37.5rem;
     text-align: center;
-    border-radius: 0.625rem;
+    border-radius: $diez;
     @include movil{
         background-color:black;
-        margin: 10px auto;
-        padding: 0.625rem;
+        margin: $diez auto;
+        padding: $diez;
         text-align: center;
-        border-radius: 0.625rem;
+        border-radius: $diez;
         color: white;
-        font-size: 10px;
-        width: 320px;
+        font-size: $diez;
+        width: 20rem;
     }
 }
 
@@ -26,25 +26,25 @@ form{
     &__img{
         width: 3.125rem;
         height: 3.125rem;
-        border-radius: 3px;
+        border-radius: 0.1875rem;
     }
     &__field{
         color: black;
-        padding: 0.625rem;
+        padding: $diez;
         width: 18.75rem;
     }
     &__conditions{
         @include movil{
             display: flex;
             width: 100%;
-            margin: 20px;        }
+            margin: 1.25rem;        }
     }
     &__btn{/*MAP*/
     @each $red, $color in $redes {
        &--#{$red} {
            background-color: $color;
-           border: 1px solid black;
-           border-radius: 8px;
+           border: 0.0625rem solid black;
+           border-radius: 0.5rem;
            width: 12.5rem;
            &:hover{
             background-color: white;
@@ -52,8 +52,8 @@ form{
            @include movil{
             width: 8rem;
             background-color: #38afdf;
-            border: 1px solid black;
-            border-radius: 8px;
+            border: 0.0625rem solid black;
+            border-radius: 0.5rem;
                &:hover{
                    background-color: #38afdf;
                }
