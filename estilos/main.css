@@ -92,9 +92,9 @@ header {
 
 /*Modifico el menú*/
 .header__menu {
-  padding: 0, 625rem;
-  margin: 0, 625rem 1.25rem;
-  border-radius: 0, 625rem;
+  padding: 0.625rem;
+  margin: 0.625rem 1.25rem;
+  border-radius: 0.625rem;
   font-family: "padauk", sans-serif;
   font-size: 1rem;
 }
@@ -129,7 +129,7 @@ h2 {
   font-style: oblique;
   font-weight: bolder;
   font-size: 1.875rem;
-  margin: 0, 625rem;
+  margin: 0.625rem;
 }
 
 /*Elimino videos.html en versión movil*/
@@ -148,7 +148,7 @@ h2 {
   background-color: #1d527e;
   color: white;
   padding: 0.1875rem;
-  margin: 0, 625rem 0, 625rem;
+  margin: 0.625rem 0.625rem;
 }
 
 /*modifico noticia de home*/
@@ -198,7 +198,7 @@ h2 {
 @media screen and (min-width: 0px) and (max-width: 425px) {
   .notind__p {
     width: 90%;
-    margin: 1.25rem;
+    margin: 20px;
     text-align: center;
   }
 }
@@ -251,7 +251,7 @@ h2 {
           flex-flow: column wrap;
   -webkit-transition: all 2s;
   transition: all 2s;
-  margin: 0, 625rem;
+  margin: 0.625rem;
 }
 
 @media screen and (min-width: 0px) and (max-width: 425px) {
@@ -292,7 +292,6 @@ h2 {
   /*Defino tamaño de imagen*/
   width: 9.375rem;
   height: 6.25rem;
-  border-radius: 0, 625rem/2;
 }
 
 @media screen and (min-width: 0px) and (max-width: 425px) {
@@ -339,8 +338,8 @@ h2 {
 
 .img_Conquistas {
   width: 90%;
-  margin: 0, 625rem;
-  border-radius: 0, 625rem;
+  margin: 0.625rem;
+  border-radius: 0.625rem;
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -351,8 +350,8 @@ h2 {
 
 .medalla {
   border: black 0.1875rem solid;
-  margin: 0, 625rem;
-  padding: 0, 625rem;
+  margin: 0.625rem;
+  padding: 0.625rem;
   width: 100vh;
   text-align: center;
 }
@@ -468,7 +467,7 @@ th {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
   margin: 1.25rem;
-  border-radius: 0, 625rem/2;
+  border-radius: 0.625rem;
 }
 
 .videos__texto {
@@ -493,7 +492,7 @@ th {
   margin: 1.25rem;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 0, 625rem;
+  border-radius: 0.625rem;
 }
 
 @media screen and (min-width: 0px) and (max-width: 425px) {
@@ -523,7 +522,7 @@ th {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0, 625rem;
+  margin: 0.625rem;
 }
 
 .noticias__1 {
@@ -620,35 +619,35 @@ th {
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .pNoticias {
-    margin: 0, 625rem;
+    margin: 0.625rem;
   }
 }
 
 @media screen and (min-width: 0px) and (max-width: 425px) {
   .pNoticias {
-    margin: 0, 625rem;
+    margin: 0.625rem;
   }
 }
 
 /*Contact*/
 form {
   background-color: #999;
-  margin: 0, 625rem auto;
-  padding: 0, 625rem;
+  margin: 0.625rem auto;
+  padding: 0.625rem;
   width: 37.5rem;
   text-align: center;
-  border-radius: 0, 625rem;
+  border-radius: 0.625rem;
 }
 
 @media screen and (min-width: 0px) and (max-width: 425px) {
   form {
     background-color: black;
-    margin: 0, 625rem auto;
-    padding: 0, 625rem;
+    margin: 0.625rem auto;
+    padding: 0.625rem;
     text-align: center;
-    border-radius: 0, 625rem;
+    border-radius: 0.625rem;
     color: white;
-    font-size: 0, 625rem;
+    font-size: 0.625rem;
     width: 20rem;
   }
 }
@@ -661,7 +660,7 @@ form {
 
 .fieldset__field {
   color: black;
-  padding: 0, 625rem;
+  padding: 0.625rem;
   width: 18.75rem;
 }
 
