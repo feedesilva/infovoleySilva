@@ -15,7 +15,7 @@
     background-color: $b-color;
     color: white;
     padding: 0.1875rem;
-    margin: $diez $diez;
+    margin: 0.625rem 0.625rem;
 }
 /*modifico noticia de home*/
 .notind{
@@ -39,7 +39,7 @@
     &__p{
         @include movil{
             width: 90%;
-            margin: 1.25rem;
+            margin: 20px;
             text-align: center;
         }
     }

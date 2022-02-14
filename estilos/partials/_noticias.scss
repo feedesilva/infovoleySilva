@@ -4,7 +4,7 @@
     height: 31.25rem;
     margin: 1.25rem;
     object-fit: cover;
-    border-radius: $diez;
+    border-radius: 0.625rem;
     @include movil{
         width: 15.625rem;
         height: 9.375rem;
@@ -22,7 +22,7 @@
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
     align-items: center;        
-    margin: $diez;        
+    margin: 0.625rem;        
     &__1{
         grid-area: a;
         display: flex;
@@ -71,9 +71,9 @@
 .pNoticias{
     font-weight: bold;
     @include tablet{
-        margin: $diez;
+        margin: 0.625rem;
     }
     @include movil{
-        margin: $diez;
+        margin: 0.625rem;
     }
 }

@@ -5,19 +5,19 @@ reset:#38afdf
 );
 form{
     background-color:#999;
-    margin: $diez auto;
-    padding: $diez;
+    margin: 0.625rem auto;
+    padding: 0.625rem;
     width: 37.5rem;
     text-align: center;
-    border-radius: $diez;
+    border-radius: 0.625rem;
     @include movil{
         background-color:black;
-        margin: $diez auto;
-        padding: $diez;
+        margin: 0.625rem auto;
+        padding: 0.625rem;
         text-align: center;
-        border-radius: $diez;
+        border-radius: 0.625rem;
         color: white;
-        font-size: $diez;
+        font-size: 0.625rem;
         width: 20rem;
     }
 }
@@ -30,7 +30,7 @@ form{
     }
     &__field{
         color: black;
-        padding: $diez;
+        padding: 0.625rem;
         width: 18.75rem;
     }
     &__conditions{
