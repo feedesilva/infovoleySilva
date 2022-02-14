@@ -67,6 +67,7 @@
 .img_Conquistas{
     width: 90%;
     margin: 0.625rem;
+    border-radius: 5px;
     @include tablet{
         display: none;
     }
