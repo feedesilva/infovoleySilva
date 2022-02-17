@@ -39,7 +39,7 @@ form{
         margin: 0.625rem;
         @include movil{
             width: 15rem;
-            margin: 0.0625rem;
+            margin: 0.625rem;
             font-size: 0.625rem*1.6;
         }
     }
@@ -78,4 +78,9 @@ form{
 }
 }
 
+.chceck{
+    margin: 0;
+    padding: 0;
+    width: 0.9375rem;
+}
 
