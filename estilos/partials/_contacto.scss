@@ -38,17 +38,17 @@ form{
         width: 18.75rem;
         margin: 0.625rem;
         @include movil{
-            width: 9rem;
+            width: 15rem;
             margin: 0.0625rem;
         }
     }
     &__conditions{
-        color: white;
         @include movil{
             display: flex;
-            width: 100%;
-            margin: 1.25rem;        }
+            width: 80%;
+            margin: 1.2rem;        }
     }
+
     &__btn{/*MAP*/
     @each $red, $color in $redes {
        &--#{$red} {
@@ -63,7 +63,7 @@ form{
            }
            @include movil{
             width: 8rem;
-            height: 0.625rem;
+            height: 2rem;
             background-color: #38afdf;
             border: 0.0625rem solid black;
             border-radius: 0.5rem;
