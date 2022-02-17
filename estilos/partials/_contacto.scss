@@ -4,7 +4,7 @@ send: #38afdf,
 reset:#38afdf
 );
 form{
-    background-color:$b-color;
+    background-color: $b-color;
     margin: 0.625rem auto;
     padding: 0.625rem;
     width: 37.5rem;
@@ -48,7 +48,7 @@ form{
            border: 0.0625rem solid black;
            border-radius: 0.5rem;
            width: 12.5rem;
-           height: 6.25rem;
+           height: 20rem;
            &:hover{
             background-color: white;
            }
