@@ -4,7 +4,7 @@ send: #38afdf,
 reset:#38afdf
 );
 form{
-    background-color:#999;
+    background-color:$b-color;
     margin: 0.625rem auto;
     padding: 0.625rem;
     width: 37.5rem;
@@ -27,11 +27,13 @@ form{
         width: 3.125rem;
         height: 3.125rem;
         border-radius: 0.1875rem;
+        margin: 0.625rem;
     }
     &__field{
         color: black;
         padding: 0.625rem;
         width: 18.75rem;
+        margin: 0.625rem*2;
     }
     &__conditions{
         @include movil{
@@ -46,6 +48,7 @@ form{
            border: 0.0625rem solid black;
            border-radius: 0.5rem;
            width: 12.5rem;
+           height: 6.25rem;
            &:hover{
             background-color: white;
            }

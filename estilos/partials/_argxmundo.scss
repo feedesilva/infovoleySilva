@@ -38,6 +38,7 @@
     &__imagenJug{ /*Defino tamaño de imagen*/
         width: 9.375rem;
         height: 6.25rem;
+        object-fit: cover;
         @include movil{
             width: 100%;
             height: 50%;
