@@ -21,6 +21,9 @@ form{
         width: 20rem;
     }
 }
+.indicacion{
+    color: white;
+}
 
 .fieldset{
     &__img{
@@ -34,8 +37,13 @@ form{
         padding: 0.625rem;
         width: 18.75rem;
         margin: 0.625rem;
+        @include movil{
+            width: 9rem;
+            margin: 0.0625rem;
+        }
     }
     &__conditions{
+        color: white;
         @include movil{
             display: flex;
             width: 100%;
@@ -46,15 +54,16 @@ form{
        &--#{$red} {
            background-color: $color;
            border: 0.0625rem solid black;
-           border-radius: 1rem;
+           border-radius: 5rem;
            width: 12.5rem;
-           height: 8rem;
+           height: 4rem;
            margin: 0.625rem;
            &:hover{
             background-color: white;
            }
            @include movil{
             width: 8rem;
+            height: 0.625rem;
             background-color: #38afdf;
             border: 0.0625rem solid black;
             border-radius: 0.5rem;
