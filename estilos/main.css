@@ -653,6 +653,10 @@ form {
   }
 }
 
+.indicacion {
+  color: white;
+}
+
 .fieldset__img {
   width: 3.125rem;
   height: 3.125rem;
@@ -665,6 +669,17 @@ form {
   padding: 0.625rem;
   width: 18.75rem;
   margin: 0.625rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .fieldset__field {
+    width: 9rem;
+    margin: 0.0625rem;
+  }
+}
+
+.fieldset__conditions {
+  color: white;
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -684,9 +699,9 @@ form {
 .fieldset__btn--send {
   background-color: #38afdf;
   border: 0.0625rem solid black;
-  border-radius: 1rem;
+  border-radius: 5rem;
   width: 12.5rem;
-  height: 8rem;
+  height: 4rem;
   margin: 0.625rem;
 }
 
@@ -697,6 +712,7 @@ form {
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .fieldset__btn--send {
     width: 8rem;
+    height: 0.625rem;
     background-color: #38afdf;
     border: 0.0625rem solid black;
     border-radius: 0.5rem;
@@ -709,9 +725,9 @@ form {
 .fieldset__btn--reset {
   background-color: #38afdf;
   border: 0.0625rem solid black;
-  border-radius: 1rem;
+  border-radius: 5rem;
   width: 12.5rem;
-  height: 8rem;
+  height: 4rem;
   margin: 0.625rem;
 }
 
@@ -722,6 +738,7 @@ form {
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .fieldset__btn--reset {
     width: 8rem;
+    height: 0.625rem;
     background-color: #38afdf;
     border: 0.0625rem solid black;
     border-radius: 0.5rem;
