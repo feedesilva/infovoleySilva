@@ -118,7 +118,7 @@ header {
 /*Modifico estilos de títulos y subtitulos*/
 h1 {
   color: red;
-  font-size: 2,8125rem;
+  font-size: 2.8125rem;
   text-align: center;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -292,6 +292,8 @@ h2 {
   /*Defino tamaño de imagen*/
   width: 9.375rem;
   height: 6.25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -630,7 +632,7 @@ th {
 
 /*Contact*/
 form {
-  background-color: #999;
+  background-color: #1d527e;
   margin: 0.625rem auto;
   padding: 0.625rem;
   width: 37.5rem;
@@ -655,12 +657,14 @@ form {
   width: 3.125rem;
   height: 3.125rem;
   border-radius: 0.1875rem;
+  margin: 0.625rem;
 }
 
 .fieldset__field {
   color: black;
   padding: 0.625rem;
   width: 18.75rem;
+  margin: 1.25rem;
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -682,6 +686,7 @@ form {
   border: 0.0625rem solid black;
   border-radius: 0.5rem;
   width: 12.5rem;
+  height: 20rem;
 }
 
 .fieldset__btn--send:hover {
@@ -705,6 +710,7 @@ form {
   border: 0.0625rem solid black;
   border-radius: 0.5rem;
   width: 12.5rem;
+  height: 20rem;
 }
 
 .fieldset__btn--reset:hover {
