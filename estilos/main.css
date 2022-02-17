@@ -664,7 +664,7 @@ form {
   color: black;
   padding: 0.625rem;
   width: 18.75rem;
-  margin: 1.25rem;
+  margin: 0.625rem;
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -684,9 +684,10 @@ form {
 .fieldset__btn--send {
   background-color: #38afdf;
   border: 0.0625rem solid black;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   width: 12.5rem;
-  height: 20rem;
+  height: 8rem;
+  margin: 0.625rem;
 }
 
 .fieldset__btn--send:hover {
@@ -708,9 +709,10 @@ form {
 .fieldset__btn--reset {
   background-color: #38afdf;
   border: 0.0625rem solid black;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   width: 12.5rem;
-  height: 20rem;
+  height: 8rem;
+  margin: 0.625rem;
 }
 
 .fieldset__btn--reset:hover {
