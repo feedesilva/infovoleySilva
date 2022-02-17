@@ -33,7 +33,7 @@ form{
         color: black;
         padding: 0.625rem;
         width: 18.75rem;
-        margin: 0.625rem*2;
+        margin: 0.625rem;
     }
     &__conditions{
         @include movil{
@@ -46,9 +46,10 @@ form{
        &--#{$red} {
            background-color: $color;
            border: 0.0625rem solid black;
-           border-radius: 0.5rem;
+           border-radius: 1rem;
            width: 12.5rem;
-           height: 20rem;
+           height: 8rem;
+           margin: 0.625rem;
            &:hover{
             background-color: white;
            }
