@@ -36,12 +36,11 @@
         }
     }
     &__imagenJug{ /*Defino tamaño de imagen*/
-        width: 9.375rem;
-        height: 6.25rem;
-        object-fit: cover;
+        width: 80%;
+        height: 15vh;
         @include movil{
             width: 100%;
-            height: 50%;
+            height: 60%;
         }
     }
     &__pJug{
