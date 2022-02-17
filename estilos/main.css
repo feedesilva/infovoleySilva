@@ -76,7 +76,7 @@ header {
   background-color: #1d527e;
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   header .header__video {
     /*borro video.html en dispositivos moviles*/
     display: none;
@@ -103,7 +103,7 @@ header {
   background-color: white;
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .header__menu:hover {
     background-color: none;
   }
@@ -166,7 +166,7 @@ h2 {
           justify-content: center;
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .notind {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -227,7 +227,7 @@ h2 {
           justify-content: stretch;
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .seleccion {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
@@ -268,7 +268,7 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .seleccion__jug {
     -webkit-transition: none;
     transition: none;
@@ -288,7 +288,7 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .seleccion__jug:hover {
     -webkit-transform: none;
             transform: none;
@@ -339,7 +339,7 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .conquistas {
     margin: 3.125rem;
   }
@@ -351,7 +351,7 @@ h2 {
   border-radius: 0.625rem;
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .img_Conquistas {
     display: none;
   }
@@ -365,7 +365,7 @@ h2 {
   text-align: center;
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .medalla {
     width: 80%;
   }
@@ -510,7 +510,7 @@ th {
   }
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .sectionNoticias {
     width: 80%;
     -o-object-fit: cover;
@@ -611,7 +611,7 @@ th {
   }
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .noticias {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -625,7 +625,7 @@ th {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .pNoticias {
     margin: 0.625rem;
   }
