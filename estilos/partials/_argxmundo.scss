@@ -25,7 +25,7 @@
             transition: none;
         }
     }
-    &__jug:hover{
+    &__imagenJug:hover{
         transform: scale(1.5,1.5); /*Scalo la imagen al pasar por arriba*/
         @include movil{
             transform: none;

@@ -3,17 +3,21 @@
     background-image: url(../../assets/bg-home.jpg);
     object-fit: cover;
     object-position: top;
+    
     &__video{
         @include movil{
             display: none;
         }
     }
     &__btn{
-        width: 100px;
+        width: 120px;
         background-color: $b-color;
-        height: 20vh;
+        height: 15vh;
         border: none;
-        border-radius: 10px;
+        border-radius: 25px;
+    }
+    &__btn a{
+        color: white;
     }
 }
 /*Index*/
