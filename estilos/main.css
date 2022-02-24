@@ -151,7 +151,7 @@ h2 {
 }
 
 /*Elimino videos.html en versión movil*/
-.presentacion {
+.presentacion__video {
   margin-top: 5rem;
 }
 
@@ -172,9 +172,9 @@ h2 {
 }
 
 .cont__btn {
-  width: 120px;
+  width: 7.5rem;
   background-color: #1d527e;
-  height: 15vh;
+  height: 10vh;
   border: none;
   border-radius: 25px;
 }
@@ -751,6 +751,7 @@ form {
 
 /*Footer*/
 .footer {
+  height: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
