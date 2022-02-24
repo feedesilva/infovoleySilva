@@ -1,7 +1,5 @@
 .home{
-    background-image: url(../../assets/bg-home);
-    object-fit: cover;
-    object-position: top;
+    background-color: rgb(37, 37, 37);
 }
 
 /*Elimino videos.html en versión movil*/
@@ -13,7 +11,7 @@
     }
 }
 
-.alineacion{
+.cont{
     text-align: center;
     &__btn{
         width: 120px;
