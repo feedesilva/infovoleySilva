@@ -8,6 +8,7 @@
     @include tablet{
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(7,1fr);
+        text-align: center;
     }
     @include movil{
         grid-template-columns: 1fr;
