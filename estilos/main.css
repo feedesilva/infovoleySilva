@@ -145,22 +145,26 @@ h2 {
   }
 }
 
-/*Elimino videos.html en versión movil*/
-.presentacion {
-  background-image: url(../../assets/bg-home.jpg);
+.home {
+  background-image: url(../../assets/bg-home);
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
 }
 
+/*Elimino videos.html en versión movil*/
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .presentacion__video {
     display: none;
   }
 }
 
-.presentacion__btn {
+.alineacion {
+  text-align: center;
+}
+
+.alineacion__btn {
   width: 120px;
   background-color: #1d527e;
   height: 15vh;
@@ -168,7 +172,7 @@ h2 {
   border-radius: 25px;
 }
 
-.presentacion__btn a {
+.alineacion__btn a {
   color: white;
 }
 
