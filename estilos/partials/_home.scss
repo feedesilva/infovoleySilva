@@ -1,6 +1,9 @@
 .home{
     background-color: rgb(37, 37, 37);
     height: 70vh;
+    @include tablet{
+        height: 75vh;
+    }
 }
 
 /*Elimino videos.html en versión movil*/
@@ -18,12 +21,21 @@
 
 .cont{
     text-align: center;
+    margin-top: 3rem;
+    @include tablet{
+        margin-top: 200px;
+    }
     &__btn{
         width: 7.5rem;
         background-color: $b-color;
         height: 10vh;
         border: none;
         border-radius: 25px;
+        padding: 10px;
+        margin: 20px;
+        @include tablet{
+            height: 6vh;
+        }
     }
     &__btn a{
         color: white;
