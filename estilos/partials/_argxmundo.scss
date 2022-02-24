@@ -6,18 +6,17 @@
     align-content: stretch;
     justify-content: stretch;
     @include tablet{
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(5,1fr);
-    }
-    @include movil{
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(7,1fr);
+    }
+    @include movil{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(14,1fr);
         justify-content: center;
     }
     &__jug{
         display: flex;
         flex-flow: column wrap;
-        transition: all 2s;
         margin: 0.625rem;
         @include movil{
             transition: none;
@@ -38,6 +37,9 @@
     &__imagenJug{ /*Defino tamaño de imagen*/
         width: 80%;
         height: 15vh;
+        object-fit: cover;
+        object-position: top;
+        transition: all 2s;
         @include movil{
             width: 100%;
             height: 60%;

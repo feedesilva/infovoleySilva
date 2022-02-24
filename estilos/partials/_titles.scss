@@ -1,6 +1,6 @@
 /*Modifico estilos de títulos y subtitulos*/
 h1{
-    color: red;
+    color: $b-color;
     font-size: 2.8125rem;
     text-align: center;
     text-transform: uppercase;
@@ -15,6 +15,9 @@ h1{
 h2{
     font-style:oblique;
     font-weight:bolder;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin: 0.625rem;
+    @include movil{
+        font-size: 0.9rem;
+    }
 }

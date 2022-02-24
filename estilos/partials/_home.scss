@@ -1,9 +1,19 @@
 /*Elimino videos.html en versión movil*/
 .presentacion{
+    background-image: url(../../assets/bg-home);
+    object-fit: cover;
+    object-position: top;
     &__video{
         @include movil{
             display: none;
         }
+    }
+    &__btn{
+        width: 100px;
+        background-color: $b-color;
+        height: 20vh;
+        border: none;
+        border-radius: 10px;
     }
 }
 /*Index*/
@@ -17,30 +27,4 @@
     padding: 0.1875rem;
     margin: 0.625rem 0.625rem;
 }
-/*modifico noticia de home*/
-.notind{
-    text-align: center;
-    justify-content: center;
-    @include tablet{
-        justify-content: center;
-    }
-    @include movil{
-        justify-content: center;
-    }
-    &__lnvm{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    &__img{
-        width: 100vh;
-    }
-    &__p{
-        @include movil{
-            width: 90%;
-            margin: 20px;
-            text-align: center;
-        }
-    }
-}
+

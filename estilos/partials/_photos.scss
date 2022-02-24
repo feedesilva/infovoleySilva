@@ -3,6 +3,8 @@
     &__imagen{
         width: 100vh;
         height: 100vh;
+        object-fit: cover;
+        object-position: top;
         @include movil{
             max-width: 100vh;
             height: 50vh;
