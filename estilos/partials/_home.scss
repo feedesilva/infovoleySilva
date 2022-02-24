@@ -1,11 +1,16 @@
 .home{
     background-color: rgb(37, 37, 37);
+    height: 70vh;
 }
 
 /*Elimino videos.html en versión movil*/
 .presentacion{
+    margin-top: 5rem;
     &__video{
         @include movil{
+            display: none;
+        }
+        @include tablet{
             display: none;
         }
     }
