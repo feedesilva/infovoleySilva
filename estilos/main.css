@@ -161,11 +161,15 @@ h2 {
 }
 
 .presentacion__btn {
-  width: 100px;
+  width: 120px;
   background-color: #1d527e;
-  height: 20vh;
+  height: 15vh;
   border: none;
-  border-radius: 10px;
+  border-radius: 25px;
+}
+
+.presentacion__btn a {
+  color: white;
 }
 
 /*Index*/
@@ -243,21 +247,21 @@ h2 {
   }
 }
 
-.seleccion__jug:hover {
+.seleccion__imagenJug:hover {
   -webkit-transform: scale(1.5, 1.5);
           transform: scale(1.5, 1.5);
   /*Scalo la imagen al pasar por arriba*/
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
-  .seleccion__jug:hover {
+  .seleccion__imagenJug:hover {
     -webkit-transform: none;
             transform: none;
   }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 1200px) {
-  .seleccion__jug:hover {
+  .seleccion__imagenJug:hover {
     -webkit-transform: none;
             transform: none;
   }
