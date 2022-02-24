@@ -13,6 +13,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(14,1fr);
         justify-content: center;
+        text-align: center;
     }
     &__jug{
         display: flex;

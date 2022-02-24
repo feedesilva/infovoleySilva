@@ -25,6 +25,9 @@
     @include tablet{
         margin-top: 200px;
     }
+    @include movil{
+        margin-top: none;
+    }
     &__btn{
         width: 7.5rem;
         background-color: $b-color;

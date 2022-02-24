@@ -7,11 +7,12 @@
         object-position: top;
         @include tablet{
             object-position: center;
-            height: 110vh;
+            height: 60vh;
         }
         @include movil{
             max-width: 100vh;
             height: 50vh;
+            object-position: center;
         }
     }
 }

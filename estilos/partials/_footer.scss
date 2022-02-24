@@ -9,6 +9,9 @@
     @include tablet{
         height: 17vh;
     }
+    @include movil{
+        height: 20vh;
+    }
     &__p{
        color: rgb(0, 0, 0);
        font-weight: bold;
