@@ -5,8 +5,8 @@
 
 /*Elimino videos.html en versión movil*/
 .presentacion{
-    margin-top: 5rem;
     &__video{
+        margin-top: 5rem;
         @include movil{
             display: none;
         }
@@ -19,9 +19,9 @@
 .cont{
     text-align: center;
     &__btn{
-        width: 120px;
+        width: 7.5rem;
         background-color: $b-color;
-        height: 15vh;
+        height: 10vh;
         border: none;
         border-radius: 25px;
     }
