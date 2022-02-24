@@ -147,10 +147,21 @@ h2 {
 
 .home {
   background-color: #252525;
+  height: 70vh;
 }
 
 /*Elimino videos.html en versión movil*/
+.presentacion {
+  margin-top: 5rem;
+}
+
 @media screen and (min-width: 0px) and (max-width: 576px) {
+  .presentacion__video {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
   .presentacion__video {
     display: none;
   }
