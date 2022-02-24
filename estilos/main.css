@@ -147,7 +147,7 @@ h2 {
 
 /*Elimino videos.html en versión movil*/
 .presentacion {
-  background-image: url(../../assets/bg-home);
+  background-image: url(../../assets/bg-home.jpg);
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
