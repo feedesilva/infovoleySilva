@@ -117,7 +117,7 @@ header {
 
 /*Modifico estilos de títulos y subtitulos*/
 h1 {
-  color: red;
+  color: #1d527e;
   font-size: 2.8125rem;
   text-align: center;
   text-transform: uppercase;
@@ -135,15 +135,37 @@ h1 {
 h2 {
   font-style: oblique;
   font-weight: bolder;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   margin: 0.625rem;
 }
 
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  h2 {
+    font-size: 0.9rem;
+  }
+}
+
 /*Elimino videos.html en versión movil*/
+.presentacion {
+  background-image: url(../../assets/bg-home);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .presentacion__video {
     display: none;
   }
+}
+
+.presentacion__btn {
+  width: 100px;
+  background-color: #1d527e;
+  height: 20vh;
+  border: none;
+  border-radius: 10px;
 }
 
 /*Index*/
@@ -156,58 +178,6 @@ h2 {
   color: white;
   padding: 0.1875rem;
   margin: 0.625rem 0.625rem;
-}
-
-/*modifico noticia de home*/
-.notind {
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media only screen and (min-width: 577px) and (max-width: 1200px) {
-  .notind {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 576px) {
-  .notind {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-.notind__lnvm {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.notind__img {
-  width: 100vh;
-}
-
-@media screen and (min-width: 0px) and (max-width: 576px) {
-  .notind__p {
-    width: 90%;
-    margin: 20px;
-    text-align: center;
-  }
 }
 
 /*Argentinos Por El Mundo*/
@@ -229,19 +199,19 @@ h2 {
 
 @media only screen and (min-width: 577px) and (max-width: 1200px) {
   .seleccion {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-    -ms-grid-rows: (1fr)[5];
-        grid-template-rows: repeat(5, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[7];
+        grid-template-rows: repeat(7, 1fr);
   }
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .seleccion {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: (1fr)[7];
-        grid-template-rows: repeat(7, 1fr);
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[14];
+        grid-template-rows: repeat(14, 1fr);
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -256,8 +226,6 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  -webkit-transition: all 2s;
-  transition: all 2s;
   margin: 0.625rem;
 }
 
@@ -299,6 +267,12 @@ h2 {
   /*Defino tamaño de imagen*/
   width: 80%;
   height: 15vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  -webkit-transition: all 2s;
+  transition: all 2s;
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -438,6 +412,10 @@ th {
 .slider__imagen {
   width: 100vh;
   height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
