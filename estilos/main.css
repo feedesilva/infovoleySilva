@@ -150,6 +150,12 @@ h2 {
   height: 70vh;
 }
 
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
+  .home {
+    height: 75vh;
+  }
+}
+
 /*Elimino videos.html en versión movil*/
 .presentacion__video {
   margin-top: 5rem;
@@ -169,6 +175,13 @@ h2 {
 
 .cont {
   text-align: center;
+  margin-top: 3rem;
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
+  .cont {
+    margin-top: 200px;
+  }
 }
 
 .cont__btn {
@@ -177,6 +190,14 @@ h2 {
   height: 10vh;
   border: none;
   border-radius: 25px;
+  padding: 10px;
+  margin: 20px;
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
+  .cont__btn {
+    height: 6vh;
+  }
 }
 
 .cont__btn a {
@@ -431,6 +452,14 @@ th {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
+  .slider__imagen {
+    -o-object-position: center;
+       object-position: center;
+    height: 110vh;
+  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -767,6 +796,12 @@ form {
           align-items: center;
   background-image: -webkit-gradient(linear, right top, left top, from(#1d527e), to(#f8f844));
   background-image: linear-gradient(to left, #1d527e, #f8f844);
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
+  .footer {
+    height: 17vh;
+  }
 }
 
 .footer__p {
