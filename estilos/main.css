@@ -184,6 +184,12 @@ h2 {
   }
 }
 
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .cont {
+    margin-top: none;
+  }
+}
+
 .cont__btn {
   width: 7.5rem;
   background-color: #1d527e;
@@ -251,6 +257,7 @@ h2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    text-align: center;
   }
 }
 
@@ -458,7 +465,7 @@ th {
   .slider__imagen {
     -o-object-position: center;
        object-position: center;
-    height: 110vh;
+    height: 60vh;
   }
 }
 
@@ -466,6 +473,8 @@ th {
   .slider__imagen {
     max-width: 100vh;
     height: 50vh;
+    -o-object-position: center;
+       object-position: center;
   }
 }
 
@@ -801,6 +810,12 @@ form {
 @media only screen and (min-width: 577px) and (max-width: 1200px) {
   .footer {
     height: 17vh;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .footer {
+    height: 20vh;
   }
 }
 
