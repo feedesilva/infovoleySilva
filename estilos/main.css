@@ -146,11 +146,7 @@ h2 {
 }
 
 .home {
-  background-image: url(../../assets/bg-home);
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
+  background-color: #252525;
 }
 
 /*Elimino videos.html en versión movil*/
@@ -160,11 +156,11 @@ h2 {
   }
 }
 
-.alineacion {
+.cont {
   text-align: center;
 }
 
-.alineacion__btn {
+.cont__btn {
   width: 120px;
   background-color: #1d527e;
   height: 15vh;
@@ -172,7 +168,7 @@ h2 {
   border-radius: 25px;
 }
 
-.alineacion__btn a {
+.cont__btn a {
   color: white;
 }
 
