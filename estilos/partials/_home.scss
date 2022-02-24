@@ -1,14 +1,20 @@
-/*Elimino videos.html en versión movil*/
-.presentacion{
-    background-image: url(../../assets/bg-home.jpg);
+.home{
+    background-image: url(../../assets/bg-home);
     object-fit: cover;
     object-position: top;
-    
+}
+
+/*Elimino videos.html en versión movil*/
+.presentacion{
     &__video{
         @include movil{
             display: none;
         }
     }
+}
+
+.alineacion{
+    text-align: center;
     &__btn{
         width: 120px;
         background-color: $b-color;
