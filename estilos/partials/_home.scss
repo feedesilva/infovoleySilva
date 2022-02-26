@@ -26,7 +26,7 @@
     text-align: center;
     margin-top: 3rem;
     @include tablet{
-        margin-top: 95px;
+        margin-top: 5.9375rem;
     }
     @include movil{
         margin-top: none;
@@ -41,9 +41,9 @@
         background-color: $b-color;
         height: 10vh;
         border: none;
-        border-radius: 25px;
-        padding: 10px;
-        margin: 20px;
+        border-radius: 1.5625rem;
+        padding: 0.625rem;
+        margin: 1.25rem;
         @include tablet{
             height: 6vh;
         }
