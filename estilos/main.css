@@ -156,6 +156,12 @@ h2 {
   }
 }
 
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .home {
+    height: 75vh;
+  }
+}
+
 /*Elimino videos.html en versión movil*/
 .presentacion__video {
   margin-top: 5rem;
@@ -187,6 +193,12 @@ h2 {
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .cont {
     margin-top: none;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .cont__bienvenida {
+    color: white;
   }
 }
 
