@@ -4,6 +4,9 @@
     @include tablet{
         height: 75vh;
     }
+    @include movil{
+        height: 75vh;
+    }
 }
 
 /*Elimino videos.html en versión movil*/
@@ -27,6 +30,11 @@
     }
     @include movil{
         margin-top: none;
+    }
+    &__bienvenida{
+        @include movil{
+            color: white;
+        }
     }
     &__btn{
         width: 7.5rem;
