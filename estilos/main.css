@@ -186,7 +186,7 @@ h2 {
 
 @media only screen and (min-width: 577px) and (max-width: 1200px) {
   .cont {
-    margin-top: 95px;
+    margin-top: 5.9375rem;
   }
 }
 
@@ -207,9 +207,9 @@ h2 {
   background-color: #1d527e;
   height: 10vh;
   border: none;
-  border-radius: 25px;
-  padding: 10px;
-  margin: 20px;
+  border-radius: 1.5625rem;
+  padding: 0.625rem;
+  margin: 1.25rem;
 }
 
 @media only screen and (min-width: 577px) and (max-width: 1200px) {
