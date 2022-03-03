@@ -46,6 +46,9 @@
             width: 100%;
             height: 60%;
         }
+        @include tablet{
+            height: 25vh;
+        }
     }
     &__pJug{
         color: black;
