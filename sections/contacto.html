@@ -44,21 +44,25 @@
         <h1>Contacto</h1>
         <section>
             <form action="" method="get" enctype="text/plain" id="formulario">
-                <fieldset class="fieldset"> <!--BEM10-->
+                <fieldset class="fieldset"> <!--Bloque-->
                     <legend class="indicacion">¡Dejanos tu mensaje!</legend>
                     <img src="../assets/correo.svg" alt="imagenCorreo" class="fieldset__img">
                     <div>
+                        <!--Agregar nombre-->
                         <label for="Name"></label>
-                        <input type="text" name="userName" id="Name" placeholder="Indique su Nombre" class="fieldset__field">
+                        <input type="text" name="userName" id="Name" placeholder="Nombre" class="fieldset__field">
                     </div>
                     <div>
+                        <!--Agregar email-->
                         <label for="Correo Electrónico"></label>
-                        <input type="email" name="userEmail" id="Correo Electrónico" placeholder="Escriba su email" class="fieldset__field">
+                        <input type="email" name="userEmail" id="Correo Electrónico" placeholder="email" class="fieldset__field">
                     </div>
                     <div>
+                        <!--Escribir mensaje-->
                         <textarea name="" id="" cols="30" rows="10" placeholder="Escriba su mensaje" class="fieldset__field"></textarea>
                     </div>
                     <div>
+                        <!--Posición de juego-->
                         <label for="position"></label>
                         <select name="userPosition" id="position" class="fieldset__field">
                             <option value="" disabled selected>Seleccione una posición</option>
@@ -70,10 +74,12 @@
                         </select>
                     </div>
                     <div class="fieldset__conditions">
+                        <!--Checkbox de aceptar condiciones-->
                         <input type="checkbox" name="mandatory" id="condition" value="1" class="fieldset__field check">
                         <label class="indicacion">Acepta términos y condiciones</label>
                     </div>
                    <div>
+                       <!--Botones de enviar y reset-->
                        <button class="fieldset__btn--reset" type="reset">Reset</button>
                        <button class="fieldset__btn--send" type="submit">Enviar</button>
                     </div>
@@ -81,12 +87,13 @@
             </form>
         </section>
         <!--Fin Form-->
+        <!--Ruta-->
         <div class="ruta">
             <span>
                 <a href="../index.html">Home -</a>
                 <a href="#">Contacto</a>
             </span>
-        </div>
+        </div> <!--Fin ruta-->
     </main>
     <!--footer-->
     <footer class="footer">

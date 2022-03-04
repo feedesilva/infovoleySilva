@@ -44,7 +44,7 @@
 <!--Fotos de jugadores con link a página de wikipedia-->
         <section>
             <!--Fila 1-->
-            <div class="seleccion m-5"> <!--Bloque BEM5-->
+            <div class="seleccion m-5"> <!--Bloque-->
                 <div class="seleccion__jug">
                     <img src="../assets/deCecco.png" alt="De Cecco" class="seleccion__imagenJug">
                     <a class="seleccion__pJug" href="https://es.wikipedia.org/wiki/Luciano_De_Cecco">Luciano De Cecco</a>
@@ -103,10 +103,10 @@
                 </div>
             </div>
         </section>
-        <div class="conquistas"> <!--medallero selección argentina-->
+        <div class="conquistas"> <!--medallero selección argentina colores según medalla-->
             <div>
                 <h2>Conquistas Argentinas</h2>
-                <table class="medalla"> <!--BEM11-->
+                <table class="medalla"> <!--Bloque-->
                     <tr>
                         <td class="medalla__juego">Juegos Olímpicos</td>
                         <td class="medalla__juego">Campeonato Mundial</td>
@@ -174,11 +174,12 @@
                 <img class="img_Conquistas" src="../assets/seleccion.jpg" alt="selección masculina">
             </div>
         </div>
-
+<!-- Fin Medallero -->
+<!-- Comienzo sección de jugadores destacados -->
         <section class="destacados">
             <h2>Jugadores destacados</h2>
             <!--Tabla-->
-            <table class="table container" border="1px"> <!--Bloque BEM6-->
+            <table class="table container" border="1px"> <!--Bloque-->
                 <!--Encabezados-->
                 <tr> 
                     <th>Nombre</th>
@@ -189,7 +190,7 @@
                     <th>Participaciones con la selección</th>
                 </tr>
                 <!--Fin Encabezados-->
-                <tr>
+                <tr> <!--Primera fila-->
                     <td> <a href="https://es.wikipedia.org/wiki/Luciano_De_Cecco" class="table__list">Luciano De Cecco</a></td> 
                     <td>33</td>
                     <td>Armador</td>
@@ -212,8 +213,8 @@
                             <li>JJOO Tokio 2020</li>
                         </ol>
                     </td>
-                </tr>
-                <tr>
+                </tr> <!--Fin primera fila-->
+                <tr> <!--Segunda fila-->
                     <td> <a href="https://es.wikipedia.org/wiki/Bruno_Lima" class="table__list">Bruno Lima</a></td>
                     <td>25</td>
                     <td>Opuesto</td>
@@ -231,8 +232,8 @@
                             <li>JJOO Tokio 2020</li>
                         </ol>
                     </td>
-                </tr>
-                <tr>
+                </tr> <!--Fin segunda fila-->
+                <tr> <!--Tercera fila-->
                     <td><a href="https://es.wikipedia.org/wiki/Agust%C3%ADn_Loser" class="table__list">Agustín Loser</a></td>
                     <td>24</td>
                     <td>Central</td>
@@ -249,16 +250,18 @@
                             <li>JJOO Tokio 2020</li>    
                         </ol>
                     </td>
-                </tr>
+                </tr> <!--Fin tercera fila-->
             </table>
             <!--Fin Tabla-->
         </section>
+        <!--ruta-->
         <div class="ruta">
             <span>
                 <a href="../index.html">Home -</a>
                 <a href="#">Argentinos por el Mundo</a>
             </span>
         </div>
+        <!--Fin ruta-->
     </main>
     <!--footer-->
     <footer class="footer">

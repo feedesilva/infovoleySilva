@@ -21,7 +21,7 @@
         flex-flow: column wrap;
         margin: 0.625rem;
         @include movil{
-            transition: none;
+            transition: none; /*Saco las transiciones en movil y tablet*/
         }
         @include tablet{
             transition: none;
@@ -40,7 +40,7 @@
         width: 80%;
         height: 15vh;
         object-fit: cover;
-        object-position: top;
+        object-position: top; /*Acomodo las imagenes*/
         transition: all 2s;
         @include movil{
             width: 100%;
@@ -76,7 +76,7 @@
     margin: 0.625rem;
     border-radius: 0.625rem;
     @include tablet{
-        display: none;
+        display: none; /*Saco la imagen en tablet*/
     }
 }
 .medalla{  
@@ -93,7 +93,8 @@
         padding: 0.18rem*2;
         font-weight: bolder;
     }
-    &__oro{
+    /*Agrego color al medallero según la medalla ganada*/
+    &__oro{ 
         list-style: none;
         color: gold;
     }
