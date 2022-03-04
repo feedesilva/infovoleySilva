@@ -209,7 +209,7 @@ h2 {
   border: none;
   border-radius: 1.5625rem;
   padding: 0.625rem;
-  margin: 1.25r   em;
+  margin: 1.25rem;
 }
 
 @media only screen and (min-width: 577px) and (max-width: 1200px) {
@@ -742,7 +742,7 @@ form {
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .fieldset__field {
-    width: 18rem;
+    width: 15rem;
     margin: 0.625rem auto;
     font-size: 1rem;
   }
