@@ -209,7 +209,7 @@ h2 {
   border: none;
   border-radius: 1.5625rem;
   padding: 0.625rem;
-  margin: 1.25rem;
+  margin: 1.25r   em;
 }
 
 @media only screen and (min-width: 577px) and (max-width: 1200px) {
@@ -576,7 +576,8 @@ th {
 .noticias {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "a b"  "c d";
+      grid-template-areas: "a b" 
+ "c d";
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
   -ms-grid-columns: (1fr)[2];
@@ -658,7 +659,10 @@ th {
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .noticias {
-        grid-template-areas: "a" "b" "c" "d";
+        grid-template-areas: "a"
+ "b"
+ "c"
+ "d";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: (1fr)[4];
@@ -672,7 +676,10 @@ th {
         grid-template-columns: 1fr;
     -ms-grid-rows: (1fr)[4];
         grid-template-rows: repeat(4, 1fr);
-        grid-template-areas: "a" "b" "c" "d";
+        grid-template-areas: "a"
+ "b"
+ "c"
+ "d";
   }
 }
 
@@ -735,7 +742,7 @@ form {
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .fieldset__field {
-    width: 20rem;
+    width: 18rem;
     margin: 0.625rem auto;
     font-size: 1rem;
   }
