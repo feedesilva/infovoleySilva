@@ -45,7 +45,11 @@
         padding: 0.625rem;
         margin: 1.25rem;
         @include tablet{
-            height: 6vh;
+            height: 8vh;
+            padding: 0;
+        }
+        @include movil{
+            height: 7vh;
         }
     }
     &__btn a{
